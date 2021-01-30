@@ -26,3 +26,6 @@ extension SampleProtocol {
         view.backgroundColor = userType == UserType.ADMIN ? .black : .red
     }
 }
+
+
+

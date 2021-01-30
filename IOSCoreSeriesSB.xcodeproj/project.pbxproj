@@ -15,6 +15,13 @@
 		042539C325BDF8DE009FDBB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042539C125BDF8DE009FDBB3 /* LaunchScreen.storyboard */; };
 		042539D025BDF927009FDBB3 /* SampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042539CF25BDF927009FDBB3 /* SampleProtocol.swift */; };
 		042539D825BDF964009FDBB3 /* HelloProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042539D725BDF964009FDBB3 /* HelloProtocol.swift */; };
+		045FB03325C600AD008E667F /* SampleExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB03125C600AD008E667F /* SampleExtensionViewController.swift */; };
+		045FB03425C600AD008E667F /* SampleExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045FB03225C600AD008E667F /* SampleExtensionViewController.xib */; };
+		045FB03925C60130008E667F /* SampleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB03825C60130008E667F /* SampleExtension.swift */; };
+		045FB03C25C60219008E667F /* ViewController+NibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB03B25C60219008E667F /* ViewController+NibExtension.swift */; };
+		045FB04025C60653008E667F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB03F25C60653008E667F /* UIViewExtension.swift */; };
+		045FB04525C6080D008E667F /* StructExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB04425C6080D008E667F /* StructExtension.swift */; };
+		045FB04A25C60936008E667F /* CircleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB04925C60936008E667F /* CircleViewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,13 @@
 		042539C425BDF8DE009FDBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042539CF25BDF927009FDBB3 /* SampleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProtocol.swift; sourceTree = "<group>"; };
 		042539D725BDF964009FDBB3 /* HelloProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloProtocol.swift; sourceTree = "<group>"; };
+		045FB03125C600AD008E667F /* SampleExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleExtensionViewController.swift; sourceTree = "<group>"; };
+		045FB03225C600AD008E667F /* SampleExtensionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleExtensionViewController.xib; sourceTree = "<group>"; };
+		045FB03825C60130008E667F /* SampleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleExtension.swift; sourceTree = "<group>"; };
+		045FB03B25C60219008E667F /* ViewController+NibExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+NibExtension.swift"; sourceTree = "<group>"; };
+		045FB03F25C60653008E667F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		045FB04425C6080D008E667F /* StructExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructExtension.swift; sourceTree = "<group>"; };
+		045FB04925C60936008E667F /* CircleViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 		042539CC25BDF8EA009FDBB3 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				045FB03025C6009B008E667F /* Extension */,
 				042539CD25BDF902009FDBB3 /* Protocol */,
 			);
 			path = Features;
@@ -103,6 +118,36 @@
 				042539D725BDF964009FDBB3 /* HelloProtocol.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		045FB03025C6009B008E667F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				045FB03725C600FA008E667F /* Model */,
+				045FB03125C600AD008E667F /* SampleExtensionViewController.swift */,
+				045FB03225C600AD008E667F /* SampleExtensionViewController.xib */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		045FB03725C600FA008E667F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				045FB04825C60920008E667F /* Protocol */,
+				045FB03825C60130008E667F /* SampleExtension.swift */,
+				045FB03B25C60219008E667F /* ViewController+NibExtension.swift */,
+				045FB03F25C60653008E667F /* UIViewExtension.swift */,
+				045FB04425C6080D008E667F /* StructExtension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		045FB04825C60920008E667F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				045FB04925C60936008E667F /* CircleViewProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FB03425C600AD008E667F /* SampleExtensionViewController.xib in Resources */,
 				042539C325BDF8DE009FDBB3 /* LaunchScreen.storyboard in Resources */,
 				042539C025BDF8DE009FDBB3 /* Assets.xcassets in Resources */,
 				042539BE25BDF8DC009FDBB3 /* Main.storyboard in Resources */,
@@ -175,10 +221,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FB03325C600AD008E667F /* SampleExtensionViewController.swift in Sources */,
 				042539BB25BDF8DC009FDBB3 /* ViewController.swift in Sources */,
 				042539B725BDF8DC009FDBB3 /* AppDelegate.swift in Sources */,
+				045FB04A25C60936008E667F /* CircleViewProtocol.swift in Sources */,
 				042539B925BDF8DC009FDBB3 /* SceneDelegate.swift in Sources */,
+				045FB03C25C60219008E667F /* ViewController+NibExtension.swift in Sources */,
+				045FB03925C60130008E667F /* SampleExtension.swift in Sources */,
+				045FB04025C60653008E667F /* UIViewExtension.swift in Sources */,
 				042539D825BDF964009FDBB3 /* HelloProtocol.swift in Sources */,
+				045FB04525C6080D008E667F /* StructExtension.swift in Sources */,
 				042539D025BDF927009FDBB3 /* SampleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
