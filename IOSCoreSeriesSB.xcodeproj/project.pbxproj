@@ -22,6 +22,7 @@
 		045FB04025C60653008E667F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB03F25C60653008E667F /* UIViewExtension.swift */; };
 		045FB04525C6080D008E667F /* StructExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB04425C6080D008E667F /* StructExtension.swift */; };
 		045FB04A25C60936008E667F /* CircleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FB04925C60936008E667F /* CircleViewProtocol.swift */; };
+		048F7D3925E3F8DE008D4287 /* MemoryManagerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F7D3825E3F8DE008D4287 /* MemoryManagerTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		045FB03F25C60653008E667F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		045FB04425C6080D008E667F /* StructExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructExtension.swift; sourceTree = "<group>"; };
 		045FB04925C60936008E667F /* CircleViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewProtocol.swift; sourceTree = "<group>"; };
+		048F7D3825E3F8DE008D4287 /* MemoryManagerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryManagerTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		042539CC25BDF8EA009FDBB3 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				048F7D3725E3F8C8008D4287 /* Memory */,
 				045FB03025C6009B008E667F /* Extension */,
 				042539CD25BDF902009FDBB3 /* Protocol */,
 			);
@@ -148,6 +151,14 @@
 				045FB04925C60936008E667F /* CircleViewProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		048F7D3725E3F8C8008D4287 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				048F7D3825E3F8DE008D4287 /* MemoryManagerTutorial.swift */,
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				045FB04A25C60936008E667F /* CircleViewProtocol.swift in Sources */,
 				042539B925BDF8DC009FDBB3 /* SceneDelegate.swift in Sources */,
 				045FB03C25C60219008E667F /* ViewController+NibExtension.swift in Sources */,
+				048F7D3925E3F8DE008D4287 /* MemoryManagerTutorial.swift in Sources */,
 				045FB03925C60130008E667F /* SampleExtension.swift in Sources */,
 				045FB04025C60653008E667F /* UIViewExtension.swift in Sources */,
 				042539D825BDF964009FDBB3 /* HelloProtocol.swift in Sources */,
